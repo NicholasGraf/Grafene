@@ -1,0 +1,49 @@
+
+/* Grid */
+.grid {
+  width: 100%;
+  margin: 0;
+}
+
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-1, .col-2-3, .col-2, .col-3, .col-4, .col-5 {
+  width: 100%;
+}
+
+[class*='col-'] {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0;
+  margin: 0 0 1em 0;
+}
+
+
+
+/* iPads  ----------- */
+
+
+.col-2 {
+width: 49.4%;
+}
+
+.col-2-3 {
+width: 65.5%;
+}
+
+.col-3 {
+width: 32.9%
+}
+
+.col-4 {
+width: 24.2%
+}
+
+.col-5 {
+width: 19%;
+}
+

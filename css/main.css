@@ -1,0 +1,353 @@
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+h1,h2,h3,h4,h5 {
+}
+
+p {
+  margin: 0 0 1em 0;
+  padding: 0;
+}
+
+a {
+  
+}
+
+a:hover,
+a:active,
+a:focus {
+  
+}
+
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/* Defaults */
+
+* {
+	-webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+  
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  *behavior: url(/js/vendor/boxsizing.htc);
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.nomobile {
+	display: none;
+}
+
+.mobile {
+	display: block;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.clear:before,
+.clear:after {
+  content: " ";
+  display: table;
+}
+
+.clear:after {
+  clear: both;
+}
+
+.clear {
+	clear: both;
+  *zoom: 1;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Custom styles
+   ========================================================================== */
+
+
+.wrap {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width:20em) 
+and (max-device-width:30em) {
+/* Styles */
+
+
+
+
+/* END */
+}
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width:20.063em) {
+/* Styles */
+
+
+
+
+/* END */
+}
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width:20em) {
+/* Styles */
+
+
+
+
+/* END */
+}
+
+
+/* iPhone 4+ ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-device-pixel-ratio:1.5) {
+/* Styles */
+
+
+
+
+/* END */
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-width:48em)  {
+/* Styles */
+
+.mobile {
+  display: none;
+}
+
+.no-mobile {
+  display: block;
+}
+
+
+/* END */
+}
+
+
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width:48em) 
+and (max-device-width:64em) 
+and (orientation:landscape) {
+/* Styles */
+
+
+
+/* END */
+}
+
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width:48em) 
+and (max-device-width:64em) 
+and (orientation:portrait) {
+/* Styles */
+
+
+/* END */
+}
+
+
+/* 1000px Wide ----------- */
+@media only screen 
+and (min-width:62.5em) {
+/* Styles */
+
+
+/* END */
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width:76.5em) {
+/* Styles */
+
+
+/* END */
+}
+
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width:114em) {
+/* Styles */
+
+
+/* END */
+}
+
+
+@media print,
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
+/* Styles */
+
+
+/* END */
+}
+
+
+
+
+
+
+/* ==========================================================================
+   Basic Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
