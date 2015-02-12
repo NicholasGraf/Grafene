@@ -1,15 +1,13 @@
-->![Alt text](img/readme-grafene-logo.png "Grafene")<-
-
-# Grafene
-A Thin Yet Strong Website Framework
+!(img/readme-grafene-logo.png "Grafene") # Grafene
+## A Thin Yet Strong Website Framework
 
 Based on the HTML5 Boilerplate, Grafene is enhanced by some custom tweaks that makes life a little easier and your code more ready to play nicely.
 
-# Install
+### Install
 Just donwload the package and start customizing.
 
-# What's Inside
-A Solid index.html page for new projects.
+### What's Inside
+#### A Solid index.html page for new projects.
 - Cutting Edge Meta Tags
 - Full Favicon/ options
 - Modernizer
@@ -17,13 +15,13 @@ A Solid index.html page for new projects.
 - GreenSock Animation Support
 - Google Analytics
  
-Customized CSS
+#### Customized CSS
 - Reponsive & Mobile First
 - Grid Support
 - OOCSS
 - Common @media Breakpoints
 
-A Robust JS Collection
+#### A Robust JS Collection
 - JQuery: Latest & Local Fallback (v2.1.0)
 - Modernizer
 - HTML5Shiv
