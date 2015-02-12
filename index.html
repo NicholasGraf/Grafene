@@ -2,58 +2,77 @@
 <!--[if IE]><html class="ie"><![endif]-->
 <!--[if !IE]><!--><html><!--<![endif]-->
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <!-- Page Data -->
   <title>Grafene - A Thin Yet Strong Website Framework</title>
   <meta name="description" content="A Thin Yet Strong Website Framework">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta name="author" content="Nicholas Graf">
   
+  <!-- Meta Data -->
+  <meta charset="utf-8">
+  <meta http-equiv="cleartype" content="on">
+  <meta name="MobileOptimized" content="320">
+  <meta name="HandheldFriendly" content="True">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  
+  <!-- Favicons -->
+  <link rel="shortcut icon" sizes="196x196" href="img/favicon/favicon-196x196.png">
+  <link rel="shortcut icon" href="img/favicon/favicon.png">
+  <link rel="icon" href="img/favicon/favicon.ico">
+  
+  <!-- Apple Touch Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/apple-touch-icon-144x144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/favicon/apple-touch-icon-114x114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/apple-touch-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="img/favicon/apple-touch-icon-57x57-precomposed.png">
+  
+  <!-- CSS -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/grafene.css">
   
-  <link rel="icon" href="favicon.ico">
-  
+  <!-- Javascript -->
   <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+  
+  <!-- IE Fallbacks -->
   <!--[if lt IE 9]>
   <script src="js/vendor/html5shiv.js"></script>
   <script src="js/vendor/respond.js"></script>
   <script src="js/vendor/backgroundsize.js"></script>
   <![endif]-->
+  
 </head>
 
 <body>
-  <!--[if lt IE 7]><p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p><![endif]-->
-  <!-- START MAIN CONTENT -->
+  <!--[if lt IE 7]>
+    <div class="chromeframe">
+    <span>! You are using an <strong>outdated</strong> browser.</span><br />
+    Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.
+  </div>
+  <![endif]-->
   
+  <!-- START PAGE CONTENT -->
   
-  <div class="wrap">
+
   
+  <div class="wrap db center">
+  
+
     <div class="logo">
-    	<h1>Grafene</h1>
+      <img src="img/grafene-logo.png">
+      <h1>Grafene</h1>
     </div><!-- END .logo -->
   
-    <div class="nav">
-      <ul>
-        <li><a href="javascript:;">Home</a></li>
-        <li><a href="javascript:;">About</a></li>
-        <li><a href="javascript:;">Downloads</a></li>
-        <li><a href="javascript:;">Github</a></li>
-      </ul>
-      
-    </div><!-- END .nav -->
-  
-    <div class="feature">
-      A Thin Yet Strong Website Framework
-    </div><!-- END .feature -->
   
     <div class="main" role="main">
+      <h2>A Thin Yet Strong Website Framework</h2>
+      <div class="nav center">
+        <ul>
+          <li><a href="grafene.1.0.zip">Download</a></li>
+          <li><a href="https://github.com/NicholasGraf/Grafene" target="_blank">Github</a></li>
+        </ul>
+      </div><!-- END .nav -->
     </div><!-- END .main -->
-  
-    <div class="footer">
-      &copy; <!--#config timefmt="%Y" --><!--#echo var="DATE_LOCAL" --> Grafene. No rights reserved.
-  	</div><!-- END .footer -->
-  
+
   </div><!-- END .wrap -->
   
   
