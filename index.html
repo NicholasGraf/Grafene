@@ -4,13 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Hello World</title>
-  <meta name="description" content="">
+  <title>Grafene - A Thin &amp; Strong Website Framework</title>
+  <meta name="description" content="A Thin &amp; Strong Website Framework">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta name="author" content="Nicholas Graf">
   
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/grafene.css">
   
   <link rel="icon" href="favicon.ico">
   
@@ -30,20 +30,28 @@
   <div class="wrap">
   
     <div class="logo">
-    	<h1>Welcome to Grafite</h1>
+    	<h1>Grafene</h1>
     </div><!-- END .logo -->
   
     <div class="nav">
+      <ul>
+        <li><a href="javascript:;">Home</a></li>
+        <li><a href="javascript:;">About</a></li>
+        <li><a href="javascript:;">Download</a></li>
+        <li><a href="javascript:;">Github</a></li>
+      </ul>
+      
     </div><!-- END .nav -->
   
     <div class="feature">
+      
     </div><!-- END .feature -->
   
     <div class="main" role="main">
     </div><!-- END .main -->
   
     <div class="footer">
-      &copy; <!--#config timefmt="%Y" --><!--#echo var="DATE_LOCAL" --> Hello World. All rights reserved.
+      &copy; <!--#config timefmt="%Y" --><!--#echo var="DATE_LOCAL" --> Grafene. No rights reserved.
   	</div><!-- END .footer -->
   
   </div><!-- END .wrap -->
@@ -54,13 +62,15 @@
   <!-- END MAIN CONTENT -->
   
   <!-- Javascript -->
+  <!-- JQuery Latest & Local Fallback -->
   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-2.1.0.min.js"><\/script>')</script>
   
-  <!-- Animation Help -->
+  <!-- Some GreenSockJS Animation Help -->
   <script src="js/vendor/TweenMax.min.js"></script>
   <script src="js/vendor/jquery.gsap.min.js"></script>
   
+  <!-- Main JS -->
   <script src="js/main.js"></script>
   
   <!-- Google Analytics -->

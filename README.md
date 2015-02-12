@@ -1,2 +1,2 @@
-# Grafite
-Custom Website Framework
+# Grafene
+A Thin &amp; Strong Website Framework
