@@ -1,4 +1,5 @@
-!(img/readme-grafene-logo.png "Grafene") # Grafene
+![](img/readme-grafene-logo.png "Grafene")
+# Grafene
 ## A Thin Yet Strong Website Framework
 
 Based on the HTML5 Boilerplate, Grafene is enhanced by some custom tweaks that makes life a little easier and your code more ready to play nicely.
