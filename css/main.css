@@ -172,9 +172,13 @@ textarea {
 .gr { color: #91a0b3; }
 
 body { 
-  font-family: "Ubuntu", sans-serif; 
-  background: url(../img/grafene-bg.jpg) bottom center no-repeat; 
+  font-family: "Ubuntu", sans-serif;
 }
+   @media only screen and (min-width:48em)  {
+     body {
+       background: url(../img/grafene-bg.jpg) bottom center no-repeat; 
+     }
+   }
 .wrap {
 	position: relative;
 	width: 100%;
