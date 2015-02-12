@@ -1,2 +1,2 @@
 # Grafene
-A Thin &amp; Strong Website Framework
+A Thin Yet Strong Website Framework
