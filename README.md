@@ -1,4 +1,4 @@
-![Alt text](img/readme-grafene-logo.png "Grafene")
+-> ![Alt text](img/readme-grafene-logo.png "Grafene") <-
 
 # Grafene
 A Thin Yet Strong Website Framework
