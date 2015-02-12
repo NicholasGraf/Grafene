@@ -4,10 +4,6 @@
 ### A Thin Yet Strong Website Framework
 Based on the HTML5 Boilerplate, Grafene is enhanced by some custom tweaks that makes life a little easier and your code more ready to play nicely.
 
-```
-### Install
-Just fork or download the package and start customizing.
-```
 
 ### What's Inside
 #### A Solid index.html
@@ -33,5 +29,7 @@ Just fork or download the package and start customizing.
 - Backgroundsize.min.htc
 - Boxsizing.htc
 
+### Install
+Just fork or download the package and start customizing.
 
 
