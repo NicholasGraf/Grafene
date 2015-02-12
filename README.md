@@ -5,7 +5,7 @@
 Based on the HTML5 Boilerplate, Grafene is enhanced by some custom tweaks that makes life a little easier and your code more ready to play nicely.
 
 ### Install
-Just donwload the package and start customizing.
+Just fork or download the package and start customizing.
 
 ### What's Inside
 #### A Solid index.html
